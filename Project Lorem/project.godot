@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Project Loremm"
+run/main_scene="res://Scene_1.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
+
+[physics]
+
+2d/default_gravity=0.0
 
 [rendering]
 
