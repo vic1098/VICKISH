@@ -550,7 +550,27 @@ texture = ExtResource("1_lolld")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
-0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-94.0452, -119.501, 92.631, -123.744, 88.3883, 123.744, -91.2168, 125.158)
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-93.75, -124, 93.25, -126.5, 100.75, 129.5, -95.25, 124.5, -97.25, -1.5)
+0:16/size_in_atlas = Vector2i(4, 8)
+0:16/0 = 0
+0:16/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:16/0/physics_layer_0/angular_velocity = 0.0
+0:16/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32.25, -59, 33.25, -63.5, 31.75, 62, -29.25, 64, -30.75, 0.5)
+8:16/size_in_atlas = Vector2i(4, 8)
+8:16/0 = 0
+8:16/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+8:16/0/physics_layer_0/angular_velocity = 0.0
+8:16/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32.25, -59, 33.25, -63.5, 31.75, 62, -29.25, 64, -30.75, 0.5)
+4:16/size_in_atlas = Vector2i(4, 8)
+4:16/0 = 0
+4:16/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+4:16/0/physics_layer_0/angular_velocity = 0.0
+4:16/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32.25, -59, 33.25, -63.5, 31.75, 62, -29.25, 64, -30.75, 0.5)
+12:7/size_in_atlas = Vector2i(4, 4)
+12:7/0 = 0
+12:7/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+12:7/0/physics_layer_0/angular_velocity = 0.0
+12:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32.1875, -33, 31.6875, -32.25, 31.4375, 32, -31.8125, 32.125, -31.8125, 3.25)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6srtw"]
 texture = ExtResource("3_witud")
@@ -584,13 +604,13 @@ layer_0/tile_data = PackedInt32Array(-458752, 524290, 5, -393216, 524290, 6, -32
 [node name="Wall" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_barkw")
 format = 2
-layer_0/z_index = 2
-layer_0/tile_data = PackedInt32Array(655378, 0, 0)
+layer_0/z_index = 5
+layer_0/tile_data = PackedInt32Array(917530, 262144, 16, 917534, 262144, 16, 917538, 262144, 16, 917542, 262144, 16, 917545, 262144, 16, 917549, 262144, 16, 917553, 262144, 16, 917557, 262144, 16, 917561, 262144, 16, 917565, 262144, 16, 917569, 262144, 16, 917573, 262144, 16, 1048590, 786432, 7, 1310734, 786432, 7, 1572878, 786432, 7, 1835022, 786432, 7, 2359310, 786432, 7, 2621454, 786432, 7, 2883598, 786432, 7, 655378, 0, 0, 3407890, 0, 0, 655437, 0, 0, 3670042, 262144, 16, 3670046, 262144, 16, 3670050, 262144, 16, 3670054, 262144, 16, 3670058, 262144, 16, 3670062, 262144, 16, 3670066, 262144, 16, 3670070, 262144, 16, 3670074, 262144, 16, 3670077, 262144, 16, 3670080, 262144, 16, 3670084, 262144, 16, 1114193, 786432, 7, 1376337, 786432, 7, 1572945, 786432, 7, 1835089, 786432, 7, 2097233, 786432, 7, 2293841, 786432, 7, 2555985, 786432, 7, 3407950, 0, 0, 3670088, 262144, 16, 2818129, 786432, 7, 327757, 1, 3)
 
 [node name="Castle" type="TileMap" parent="."]
 z_index = 5
 tile_set = SubResource("TileSet_rvtoc")
 format = 2
-layer_0/tile_data = PackedInt32Array(327698, 0, 3)
+layer_0/tile_data = PackedInt32Array(327698, 0, 3, 327757, 0, 3, 3080210, 0, 3, 3080270, 0, 3)
 
 [node name="Player" parent="." instance=ExtResource("1_xgk6l")]

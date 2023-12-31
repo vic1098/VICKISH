@@ -895,6 +895,7 @@ z_index = 2
 script = ExtResource("1_ob6ki")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 6
 position = Vector2(1.00002, 1.00001)
 scale = Vector2(1.64706, 1.52941)
 sprite_frames = SubResource("SpriteFrames_rk8ek")
@@ -904,3 +905,7 @@ frame_progress = 0.848313
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, 38)
 shape = SubResource("RectangleShape2D_5g7gh")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position_smoothing_enabled = true
+position_smoothing_speed = 2.0
